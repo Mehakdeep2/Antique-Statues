@@ -1,0 +1,95 @@
+html {
+	background-image: url(img/bg.jpeg);
+}
+body{
+   font-family: 'Tilt Neon', cursive;  
+}
+
+.main{
+  border-style: double;
+  background-image: radial-gradient( white, lightblue);
+	font-size: 23px;
+	color: #333;
+	width: 760px;
+	background-color: #FFF;
+	margin: 20px auto;
+	padding: 2em 2em 4em 2em;
+	border-radius: 5px;
+}
+.black h2{
+  color: black;
+}
+h1{
+  font-size: 50px;
+  font-family: Perpetua;
+  color: white;
+  text-align: center;
+	
+}
+h2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+hr{
+  color: white;
+  width: 1000px;
+}
+p{
+  font-size:25px;
+  color: white;
+  text-align: center;
+}
+fieldset {
+	border: 1px solid #AAA;
+	margin: 1em 0;
+}
+legend {
+	font-size: 75%;
+	text-transform: uppercase;
+	color: #AAA;
+}
+fieldset div {
+	margin-bottom: 0.5em;
+}
+div label {
+	display: block;
+	width: 200px;
+	float: left;
+	text-align: right;
+	padding-right: 1em;
+}
+/* input[required] {
+
+} */
+label.error {
+	color: red;
+	float: right;
+}
+label img {
+	vertical-align: middle;
+}
+small {
+	font-size: 70%;
+}
+.button{
+  text-align:right;
+}
+.btn{
+  display: inline-block;
+  background: greenyellow;
+  color: orangered;
+  padding: 8px 30px;
+  margin-left: 100px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+.btn:hover{
+  background: #563434;
+}
+
+.btn1{  
+  text-align:left;
+  text-decoration: none;
+}
